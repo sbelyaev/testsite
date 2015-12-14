@@ -3,3 +3,7 @@ os: windows
 files:
   - source: \index.cfm
     destination: C:\SourceCode\vero-code
+hooks:
+  AfterInstall:
+    - location: \after-install.bat
+      timeout: 900
