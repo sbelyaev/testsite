@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \
-    destination: C:\SourceCode\vero-code
+    destination: C:\SourceCode\testsite
 hooks:
   AfterInstall:
     - location: \after-install.bat
