@@ -1,8 +1,10 @@
 version: 0.0
 os: windows
 files:
-  - source: \
-    destination: C:\SourceCode\testsite
+  - source: \app
+    destination: C:\SourceCode\testsite\app
+  - source: \index.cfm
+    destination: C:\SourceCode\testsite\index.cfm
 hooks:
   AfterInstall:
     - location: \after-install.bat
